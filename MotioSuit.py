@@ -15,7 +15,6 @@ port=''.join(glob.glob("/dev/ttyACM*"))
 ser = serial.Serial(port,9600)
 print("connected to: " + ser.portstr)
 
-#Connect the suit first and after a ~second launch the script
 
 
 # Get the whole bge scene
